@@ -77,3 +77,7 @@ ____
 <p align="center">
 <img title="Selenoid Video" src="media/news.gif" width="550" height="350"  alt="video">   
 </p>
+
+<p align="center">
+<img title="Selenoid Video" src="media/contact.gif" width="550" height="350"  alt="video">   
+</p>
