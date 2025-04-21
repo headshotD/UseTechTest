@@ -50,9 +50,13 @@ gradle clean UseTech
 ```bash  
 -Dbrowser=chrome -DbrowserSize=1920x1080 -DbrowserVersion=128.0
 ```
-Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
+Удаленный запуск через Jenkins:
 ```bash  
-gradle clean UseTech -Denv=remote
+clean UseTech
+-Dbrowser="${BROWSER}"
+-DbrowserSize="${BROWSER_SIZE}"
+-DbrowserVersion="${BROWSER_VERSION}"
+-DbrowserRemote="https://user1:1234@${BROWSER_REMOTE}/wd/hub"
 ```
 
 ## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
