@@ -37,7 +37,7 @@
 ## :ballot_box_with_check: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 100.0)
+- browserVersion (версия браузера, по умолчанию 127.0)
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
 
 
@@ -45,7 +45,7 @@
 
 Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
 ```bash  
-gradle clean test -Denv=remote
+gradle clean UseTech -Denv=remote
 ```
 
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
