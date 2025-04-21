@@ -1,5 +1,5 @@
 
-<h1 >Проект по автоматизации тестирования для компании <a href="https://usetech.ru/"><img src="media/usetech-logo-white.svg" width="200" height="200" Usetech</a></h1>
+<h1 >Проект по автоматизации тестирования для компании <a href="https://usetech.ru/">Usetech</a></h1> <img src="media/usetech-logo-white.svg" width="200" height="200"> 
 
 ## ☑️ Содержание:
 
