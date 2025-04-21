@@ -1,7 +1,7 @@
 
 <h1 >Проект по автоматизации тестирования для компании <a href="https://usetech.ru/">Usetech</a></h1> <a href="https://usetech.ru/"><img src="media/usetech-logo-white.svg" width="200" height="200"> 
 
-## ☑️ Содержание:
+## :ballot_box_with_check:Содержание:
 
 - Технологии и инструменты
 - Список проверок, реализованных в тестах
