@@ -26,11 +26,11 @@
 - Переходим с главной страницы на страницу Продукты и проверяем текст на заголовок с текстом "Продукты"
 - Переходим с главной страницы на страницу Награды и проверяем текст на заголовок с текстом "Награды"
 
-## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/C34-Olejjka1337-unit14-UseTech/)
+## <img alt="Jenkins" height="25" src="media/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/C34-Olejjka1337-unit14-UseTech/)
 
 
 <p align="center">  
-<img src="images/screen/jenkins.png" alt="Jenkins" width="950"/></a>  
+<img src="media/Jenkins.svg" alt="Jenkins" width="950"/></a>  
 </p>
 
 
