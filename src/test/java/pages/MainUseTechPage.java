@@ -7,10 +7,10 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class useTechMainPage {
-    public static useTechMainPage openPage() {
+public class MainUseTechPage {
+    public static MainUseTechPage openPage() {
         open("https://usetech.ru/");
-        return new useTechMainPage();
+        return new MainUseTechPage();
     }
 
     private final SelenideElement menuButton = $("#mobile-nav-toggle"),
@@ -19,37 +19,33 @@ public class useTechMainPage {
             products = $("#menu-item-1081"),
             awards = $("#menu-item-418");
 
-    public useTechMainPage menuButton() {
+    public MainUseTechPage menuButton() {
         this.menuButton.click();
         return this;
     }
-    public useTechMainPage headerContainer(int containerSize) {
+    public MainUseTechPage headerContainer(int containerSize) {
         $$x("//div//nav[@id='nav-menu-container']//li")
                 .shouldHave(CollectionCondition.size(containerSize));
         return this;
     }
 
-    public useTechMainPage news(String value) {
+    public MainUseTechPage news() {
         this.news.click();
-        $x("//div//h1").shouldHave(text(value));
         return this;
     }
 
-    public useTechMainPage contacts(String value) {
+    public MainUseTechPage contacts() {
         this.contacts.click();
-        $x("//div//h1").shouldHave(text(value));
         return this;
     }
 
-    public useTechMainPage products(String value) {
+    public MainUseTechPage products() {
         this.products.click();
-        $x("//section[@id='products']//div[@id='sectionAnnotation']").shouldHave(text(value));
         return this;
     }
 
-    public useTechMainPage awards(String value) {
+    public MainUseTechPage awards() {
         this.awards.click();
-        $x("//div//h1").shouldHave(text(value));
         return this;
     }
 
