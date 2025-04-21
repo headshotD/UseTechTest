@@ -13,6 +13,7 @@ import java.util.Map;
 
 
 public class TestBase {
+
     @BeforeAll
     static void browserConfiguration() {
 

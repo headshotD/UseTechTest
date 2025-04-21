@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -7,11 +8,28 @@ import pages.*;
 
 @Tag("UseTech")
 public class UseTechTests extends TestBase {
+
+    private AwardsPage awardsPage;
+    private ContactsPage contactsPage;
+    private NewsPage newsPage;
+    private ProductsPage productsPage;
+    private static final int HEADER_BUTTONS_COUNT = 9;
+
+    @BeforeEach
+    public void setUp() {
+
+        MainUseTechPage.openPage();
+        newsPage = new NewsPage();
+        contactsPage = new ContactsPage();
+        productsPage = new ProductsPage();
+        awardsPage = new AwardsPage();
+    }
+
     @Test
     @DisplayName("Проверяем количество кнопок в header меню")
     void startPageCheckHeaderContainerTest() {
         MainUseTechPage.openPage()
-                .headerContainer(9);
+                .headerContainer(HEADER_BUTTONS_COUNT);
     }
 
     @Test
@@ -19,7 +37,7 @@ public class UseTechTests extends TestBase {
     void newsPageTest() {
         MainUseTechPage.openPage()
                 .news();
-                new NewsPage().checkNewsTextTest("Новости");
+        newsPage.checkNewsTextTest("Новости");
     }
 
     @Test
@@ -27,7 +45,7 @@ public class UseTechTests extends TestBase {
     void contactsPageTest() {
         MainUseTechPage.openPage()
                 .contacts();
-                new ContactsPage().checkContactTextTest("Контакты");
+        contactsPage.checkContactTextTest("Контакты");
     }
 
     @Test
@@ -35,7 +53,7 @@ public class UseTechTests extends TestBase {
     void productsPageTest() {
         MainUseTechPage.openPage()
                 .products();
-        new ProductsPage().checkProductTextTest("Продукты");
+        productsPage.checkProductTextTest("Продукты");
     }
 
     @Test
@@ -43,7 +61,7 @@ public class UseTechTests extends TestBase {
     void awardsPageTest() {
         MainUseTechPage.openPage()
                 .awards();
-        new AwardsPage().checkAwardsTextTest("Награды");
+        awardsPage.checkAwardsTextTest("Награды");
     }
 
 }
