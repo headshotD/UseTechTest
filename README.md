@@ -64,42 +64,11 @@ gradle clean UseTech -Denv=remote
 <img title="Allure Overview Dashboard" src="media/AllureReport.jpg" width="850">  
 </p>  
 
-## Тест-кейсы
-
-<p align="center">  
-<img title="Allure Tests" src="images/screen/AR2.png" width="850">  
-<img title="Allure Graphics" src="images/screen/AR3.png" width="850">  
-</p>
-
-
-## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с Allure TestOps</a>
-
-
-## Allure TestOps Dashboard
-
-<p align="center">  
-<img title="Allure TestOps Dashboard" src="images/screen/ATO5.png" width="850">  
-</p>  
-
-## Авто и Ручные тест-кейсы
-
-<p align="center">  
-<img title="Allure Tests" src="images/screen/ATO3.png" width="850">  
-<img title="Allure Tests" src="images/screen/ATO6.png" width="850">  
-
-</p>
-
-## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-689">Jira</a>
-
-<p align="center">  
-<img title="Jira" src="images/screen/jira.png" width="">  
-</p>
-
 ____
-## <img alt="Allure" height="25" src="images/logo/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
+## <img alt="Allure" height="25" src="media/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
 ____
 <p align="center">  
-<img title="Allure Overview Dashboard" src="images/screen/tg.png" width="550">  
+<img title="Allure Overview Dashboard" src="media/tgAllert.jpg" width="550">  
 </p>
 
 ____
