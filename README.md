@@ -55,13 +55,13 @@ gradle clean UseTech
 gradle clean UseTech -Denv=remote
 ```
 
-## <img alt="Allure" height="25" src="media/AllureReport.jpg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
+## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
 
 
 ## Основная страница отчёта
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="images/screen/AR1.png" width="850">  
+<img title="Allure Overview Dashboard" src="media/AllureReport.jpg" width="850">  
 </p>  
 
 ## Тест-кейсы
