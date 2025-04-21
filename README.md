@@ -56,7 +56,7 @@ clean UseTech
 -Dbrowser="${BROWSER}"
 -DbrowserSize="${BROWSER_SIZE}"
 -DbrowserVersion="${BROWSER_VERSION}"
--DbrowserRemote="https://user1:1234@${BROWSER_REMOTE}/wd/hub"
+-DbrowserRemote="https://log:pass@${BROWSER_REMOTE}/wd/hub"
 ```
 
 ## <img alt="Allure" height="25" src="media/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
