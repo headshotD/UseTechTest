@@ -30,7 +30,7 @@
 
 
 <p align="center">  
-<img src="media/JenkinsBuild.svg" alt="Jenkins" width="950"/></a>  
+<img src="media/JenkinsBuild.jpg" alt="Jenkins" width="950"/></a>  
 </p>
 
 
