@@ -42,13 +42,20 @@
 
 
 ## Команда для запуска из терминала
-
+Локальный запуск
+```bash
+gradle clean UseTech
+```
+Запуск с параметрами:
+```bash  
+-Dbrowser=chrome -DbrowserSize=1920x1080 -DbrowserVersion=128.0
+```
 Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
 ```bash  
 gradle clean UseTech -Denv=remote
 ```
 
-## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
+## <img alt="Allure" height="25" src="media/AllureReport.jpg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
 
 
 ## Основная страница отчёта
